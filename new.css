@@ -86,3 +86,12 @@ background-color:#800000;
     top: 350px;
     left: 490px;
 }
+#para{
+    font-family: Brush Script MT;
+    font-size: 90px;
+    color: #2B547E;
+    position: relative;
+    top: 250px;
+    left: 350px;
+    transform: translate(10%,50%);
+}
