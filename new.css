@@ -15,7 +15,7 @@ display: flex;
 
 
 .main{
-    height: 340%;
+    height: 305%;
     width: 110%;
     align-items: center;
     background: #f9f9f9;
@@ -177,7 +177,7 @@ display: flex;
     
     position: relative;
     top: 700px;
-    left: 479px;
+    left: 473px;
     transform: translate(-45%,-50%);
 }
 .main #para{
