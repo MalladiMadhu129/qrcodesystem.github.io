@@ -1,39 +1,54 @@
 body{
    
-background-color:#800000;
+
+display: flex;
     
     padding: none;
 }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
 
 
 .main{
-    padding: 0px;
+    height: 340%;
+    width: 110%;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 1rem;
+    box-shadow: 5px 7px #000;
+    
+    position: relative;
+    top: 100px;
+    left: 560px;
+    transform: translate(-10%,10%);
+}
+.main #para1{
+    font-family: Century Gothic;
+    font-size: 45px;
+    color: #2B547E;
 }
 .main img{
     border-radius: 25px;
     
     padding: 0px;
     box-shadow: 0px 15px 8px black;
-    height: 500px;
+    height: 550px;
     width: auto;
     position: relative;
-    top: 400px;
-    left: 380px;
-    transform: translate(-10%,-50%);
+    top: 280px;
+    left: 545px;
+    transform: translate(-52%,-50%);
 }
-.Playlist{
-    font-family: Brush Script MT;
-    font-size: 70px;
-    color: #2B547E;
-    position: relative;
-    top: 300px;
-    left: 490px;
-    transform: translate(-10%,-50%);
 
-}
-.box{
+
+.main .box{
     height: 16rem;
-    width: 70%;
+    width: 99%;
     display: flex;
     align-items: center;
     background: #f9f9f9;
@@ -42,56 +57,136 @@ background-color:#800000;
     overflow: hidden;
     margin: 2rem;
     position: relative;
-    top: 350px;
-    left: 360px;
+    top: 170px;
+    left: 78px;
     transform: translate(-10%,-50%);
 
 }
-.box .image{
+.main .box .image{
     height: 100%;
     width: 25%;
 }
-.box .image img{
-    height: 100%;
+.main .box .image img{
+    height: 80%;
     width: 100%;
+    position: relative;
+    top: 119px;
+    left: 20px;
+    transform: translate(-10%,-50%);
 }
-.box .music{
+.main .box .music{
     width: 75%;
 }
-.box .music audio{
+.main .box .music audio{
     width: 100%;
     
 }
-
-
-
-
-
-.heading h1{
-    font-family: Brush Script MT;
-    font-size: 90px;
+.main .timming #head1{
+    font-family: Century Gothic;
+    font-size: 55px;
     color: #2B547E;
     position: relative;
-    top: 250px;
-    left: 350px;
-    transform: translate(10%,50%);
+    top: 190px;
+    left: 500px;
+    transform: translate(-10%,-50%);
+}
+.main .timming #head2{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top: 170px;
+    left: 540px;
+    transform: translate(-10%,-50%);
+}
+.main .timming #p1{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top: 130px;
+    left: 440px;
+    transform: translate(-10%,-50%);
+}
+.main .timming #p2{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top: 100px;
+    left: 480px;
+    transform: translate(-10%,-50%);
+}
+.main .timming #head3{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top: 100px;
+    left: 580px;
+    transform: translate(-10%,-50%);
+}
+.main .timming #p3{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top: 100px;
+    left: 440px;
+    transform: translate(-10%,-50%);
+}
+.main .timming #p4{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top: 70px;
+    left: 480px;
+    transform: translate(-10%,-50%);
+}
+.main .venue h1{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top: 180px;
+    left: 520px;
+    transform: translate(-10%,-50%);
+}
+.main .venue p{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top: 190px;
+    left: 380px;
+    transform: translate(-10%,-50%);
 }
 
-
-.map{
+.main .map h1{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top:300px;
+    left: 880px;
+    transform: translate(-45%,-500%);
+}
+.main .map{
     
-    width: 400px;
-    height: auto;
+    
     position: relative;
-    top: 350px;
-    left: 490px;
+    top: 700px;
+    left: 479px;
+    transform: translate(-45%,-50%);
 }
-#para{
-    font-family: Brush Script MT;
-    font-size: 100px;
+.main #para{
+    font-family: Century Gothic;
+    font-size: 50px;
     color: #2B547E;
     position: relative;
-    top: 250px;
-    left: 350px;
-    transform: translate(10%,50%);
+    top: 400px;
+    left: 300px;
+    transform: translate(-10%,50%);
 }
+
