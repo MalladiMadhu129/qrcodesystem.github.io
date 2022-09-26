@@ -15,7 +15,7 @@ body{
 
 
 .main{
-    height: 240%;
+    height: 340%;
     width: 110%;
     align-items: center;
     background: #f9f9f9;
@@ -198,4 +198,5 @@ body{
     left: 300px;
     transform: translate(-10%,50%);
 }
+
 
