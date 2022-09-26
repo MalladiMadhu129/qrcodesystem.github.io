@@ -1,7 +1,7 @@
 body{
    
 
-display: flex;
+    display: flex;
     
     padding: none;
 }
@@ -15,7 +15,7 @@ display: flex;
 
 
 .main{
-    height: 140%;
+    height: 240%;
     width: 110%;
     align-items: center;
     background: #f9f9f9;
@@ -153,13 +153,22 @@ display: flex;
     left: 520px;
     transform: translate(-10%,-50%);
 }
-.main .venue p{
+.main .venue #p1{
     font-family: Century Gothic;
     font-size: 55px;
     color: #2B547E;
     position: relative;
     top: 190px;
     left: 380px;
+    transform: translate(-10%,-50%);
+}
+.main .venue #p2{
+    font-family: Century Gothic;
+    font-size: 55px;
+    color: #2B547E;
+    position: relative;
+    top: 190px;
+    left: 340px;
     transform: translate(-10%,-50%);
 }
 
