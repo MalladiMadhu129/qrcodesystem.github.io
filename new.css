@@ -29,6 +29,7 @@ body{
 }
 .main #para1{
     font-family: Century Gothic;
+    text-align: center;
     font-size: 45px;
     color: #2B547E;
 }
